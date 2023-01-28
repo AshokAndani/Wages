@@ -13,11 +13,13 @@ namespace EmployeeWage
             int isPresent = random.Next(0, 2);
             if (isPresent == 0)
             {
+                
                 Console.WriteLine(name + " is Absent");
             }
             else
             {
-                Console.WriteLine(name + " is Present");
+                int totalWage = 8 * 20;
+                Console.WriteLine(name + " is Present and wage is: "+totalWage);
             }
         }
     }
